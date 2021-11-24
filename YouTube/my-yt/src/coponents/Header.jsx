@@ -1,7 +1,7 @@
 import React from 'react';
 import iBars from '../imagens/bars-solid.png'
 import iLogo from '../imagens/logo-yt.png'
-import iKeyboard from '../imagens/keyboard.png'
+// import iKeyboard from '../imagens/keyboard.png'
 import iSearch from '../imagens/searchw.svg'
 import iMicrophone from '../imagens/microphone.png'
 import iVideo from '../imagens/video-solid.png'
@@ -17,9 +17,8 @@ class Header extends React.Component {
       <header>
         <div className='container1'>
           <div className='menu'>
-            <Link to="#"><img src={ iBars } alt="" /></Link>
+            <Link to=""><img src={ iBars } alt="" /></Link>
           </div>
-
           <Link to=""><div className='logoyt'><img src={ iLogo } alt='Youtube' /></div></Link>
         </div>
 
@@ -27,11 +26,9 @@ class Header extends React.Component {
           <div className='search'>
             <input type ="text" placeholder=' Pesquisar' />
           </div>
-
-          <div className='keyboard'>
+          {/* <div className='keyboard'>
             <Link to=""><img src={ iKeyboard } alt="" /></Link>
-          </div>
-
+          </div> */}
           <div className='subcontainer'>
             <Link to="">
               <div className='div-lupa'>
@@ -39,7 +36,6 @@ class Header extends React.Component {
                 <img src={ iSearch } alt="" />
               </div>
             </ Link>
-
             <Link to="">
               <div className='div-microphone'>
                 <img className='microphone' src={ iMicrophone } alt="" />
@@ -53,15 +49,12 @@ class Header extends React.Component {
             <div className='div-video'>
               <Link to=""><img className='video' src={ iVideo } alt="" /></Link>
             </div>
-
             <div className='div-grid'>
               <Link to=""><img className='grid' src={ iGrid } alt="" /></Link>
             </div>
-
             <div className='div-bell'>
               <Link to=""><img className='bell' src={ iBell } alt="" /></Link>
             </div>
-
             <div className='div-icon'>
               <Link to=""><img className='icon' src={ iIcon } alt="" /></Link>
             </div>

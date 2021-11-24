@@ -11,13 +11,11 @@
   align-items: center;
 }
 
-.keyboard {
-  position: absolute; /* nao deu bom :( */
-  margin-top: 0%;
-  margin-left: 41.50%;
+.container3 {
+  display: flex;
 }
 
-.container3 {
+header .subcontainer {
   display: flex;
 }
 
@@ -58,9 +56,11 @@ header input {
   width: 100%;
 }
 
-header .subcontainer {
-  display: flex;
-}
+/* header .keyboard {
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 41.50%;
+} */
 
 header .div-lupa {
   color:#6f6f6f;
