@@ -1,12 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../css/main.css';
 
-class Main extends React.Component {
-  componentDidMount() {
-    this.createContents();
-  }
+export default function Main() {
+  useEffect(() => { createContents() }, [])
 
-  createContents() {
+  const createContents = () => {
     for (let i = 1; i < 13; i += 1) {
 
       // add contents
@@ -29,11 +27,7 @@ class Main extends React.Component {
     }
   };
 
-  render() {
-    return (
-      <main className='main'></main>
-    );
-  }
+  return (
+    <main className='main'></main>
+  );
 }
-
-export default Main;

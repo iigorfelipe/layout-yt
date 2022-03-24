@@ -1,14 +1,14 @@
 .container1 {
-  display: flex;
   align-items: center;
+  display: flex;
   height: 40px;
 }
 
 .container2 {
-  display: flex;
-  width: 53%;
-  height: 40px;
   align-items: center;
+  display: flex;
+  height: 40px;
+  width: 53%;
 }
 
 .container3 {
@@ -20,39 +20,39 @@ header .subcontainer {
 }
 
 header {
+  align-items: center;
+  display: flex;
   height: 56px;
   padding: 0 16px;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
 header .menu {
-  width: 20px;
   height: 20px;
   padding: 8px;
+  width: 20px;
 }
 
-header .logoyt {
-  display: flex;
-  height: 25px;
-  width: 95px;
+header .logoyt img {
+  height: 20px;
   padding: 18px 14px 18px 16px;
+  width: 90px;
 }
 
 header .search {
-  width: 90%;
   margin-right: 0px;
+  width: 90%;
 }
 
 header input {
-  color: white;
+  align-items: center;
   border: 1px #373737 solid;
   background-color: #121212;
+  color: white;
   display: flex;
-  align-items: center;
-  height: 40px;
   font-size: 17px;
+  height: 40px;
+  padding-left: 10px;
   width: 100%;
 }
 
@@ -63,14 +63,14 @@ header input {
 } */
 
 header .div-lupa {
+  align-items: center;
+  background-color: #313131;
+  border-radius: 0px 3px 3px 0px;
   color:#6f6f6f;
   display: flex;
-  align-items: center;
+  height: 42px;
   justify-content: center;
-  background-color: #313131;
   width: 58px;
-  height: 43px;
-  border-radius: 0px 3px 3px 0px;
 }
 
 header .buttons {
@@ -82,14 +82,14 @@ header .microphone {
 }
 
 header .div-microphone {
-  display: flex;
   align-items: center;
+  background-color: #121212; 
+  border-radius: 50%;
+  display: flex;
   justify-content: center;
   height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background-color: #121212; 
   margin-left: 10px;
+  width: 40px;
 }
 
 header .video {
@@ -97,12 +97,12 @@ header .video {
 }
 
 header .div-video {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   height: 40px;
-  width: 40px;
+  justify-content: center;
   margin-right: 15px;  
+  width: 40px;
 }
 
 header .grid {
@@ -110,12 +110,12 @@ header .grid {
 }
 
 header .div-grid {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   height: 40px;
-  width: 40px;
+  justify-content: center;
   margin-right: 15px;  
+  width: 40px;
 }
 
 header .bell {
@@ -123,24 +123,24 @@ header .bell {
 }
 
 header .div-bell {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
   height: 40px;
-  width: 40px;
   margin-right: 15px;  
+  width: 40px;
 }
 
 header .icon {
-  height: 35px;
   border-radius: 50%;
+  height: 35px;
 }
 
 header .div-icon {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   height: 40px;
-  width: 40px;
+  justify-content: center;
   margin-right: 15px;  
+  width: 40px;
 }
