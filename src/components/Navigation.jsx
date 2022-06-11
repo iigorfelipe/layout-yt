@@ -5,8 +5,11 @@ import '../css/navigation.css';
 
 export default function Navigation() {
   let rows = [];
+
   for (let i = 0; i <= 9; i += 1) {
-    rows.push(<li><Link to="">Categoria {i}</Link></li>)
+    rows.push(
+      <li><Link to="">Categoria {i}</Link></li>
+    )
   }
 
   return (

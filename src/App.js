@@ -1,9 +1,9 @@
 import './css/App.css';
 import { BrowserRouter } from 'react-router-dom';
-import Header from './coponents/Header';
-import Navigation from './coponents/Navigation';
-import Main from './coponents/Main';
-import Aside from './coponents/Aside';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Main from './components/Main';
+import Aside from './components/Aside';
 
 function App() {
   return (
