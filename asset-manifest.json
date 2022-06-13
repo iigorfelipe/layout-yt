@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/layout-yt/static/css/main.1780a098.chunk.css",
+    "main.js": "/layout-yt/static/js/main.70f6bf10.chunk.js",
+    "main.js.map": "/layout-yt/static/js/main.70f6bf10.chunk.js.map",
+    "runtime-main.js": "/layout-yt/static/js/runtime-main.898a50aa.js",
+    "runtime-main.js.map": "/layout-yt/static/js/runtime-main.898a50aa.js.map",
+    "static/js/2.a33df74c.chunk.js": "/layout-yt/static/js/2.a33df74c.chunk.js",
+    "static/js/2.a33df74c.chunk.js.map": "/layout-yt/static/js/2.a33df74c.chunk.js.map",
+    "index.html": "/layout-yt/index.html",
+    "static/css/main.1780a098.chunk.css.map": "/layout-yt/static/css/main.1780a098.chunk.css.map",
+    "static/js/2.a33df74c.chunk.js.LICENSE.txt": "/layout-yt/static/js/2.a33df74c.chunk.js.LICENSE.txt",
+    "static/media/compass.b9ff645f.png": "/layout-yt/static/media/compass.b9ff645f.png",
+    "static/media/inscrições.02798512.png": "/layout-yt/static/media/inscrições.02798512.png",
+    "static/media/library.d2b16929.png": "/layout-yt/static/media/library.d2b16929.png",
+    "static/media/logo-yt.5c371b0b.png": "/layout-yt/static/media/logo-yt.5c371b0b.png",
+    "static/media/searchw.66ea5ec3.svg": "/layout-yt/static/media/searchw.66ea5ec3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.898a50aa.js",
+    "static/js/2.a33df74c.chunk.js",
+    "static/css/main.1780a098.chunk.css",
+    "static/js/main.70f6bf10.chunk.js"
+  ]
+}
