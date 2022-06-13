@@ -6,3 +6,5 @@
 - Talvez eu adicione futuras atualizações onde eu possa consumir os dados da api do Youtube para adicionar os vídeos e as demais funcionalidades do site.
 
 - Foi usado Javascript, React, HTML/CSS
+
+Caso queira conferir, acesse: https://iigorfelipe.github.io/layout-yt/
