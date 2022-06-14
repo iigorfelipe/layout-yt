@@ -1,4 +1,6 @@
 const express = require('express');
+const google = require('googleapis').google;
+const OAuth2 = google.auth.OAuth2;
 const state = require('./state.js');
 
 const robot = async () => {
@@ -10,8 +12,8 @@ const robot = async () => {
 
   const authenticateWithOAuth = async () => {
     const webServer = await startWebServer();
-    // await createOAthClient();
-    // await requestUserConsent();
+    const OAuthClient = await createOAthClient();
+    requestUserConsent(OAuthClient);
     // await setGlobalGoogleAuthentication();
     // await stopWebServer();
 
@@ -29,7 +31,28 @@ const robot = async () => {
           });
         });
       });
-    }
+    };
+
+    const createOAthClient = async () => {
+      const credencials = require('../credenciais/google-yt-credencial.json');
+
+      const OAuthClient = new OAuth2(
+        credencials.web.client_id,
+        credencials.web.client_secret,
+        credencials.web.redirect_uris[0]
+      );
+
+      return OAuthClient;
+    };
+
+    const requestUserConsent = (OAuthClient) => {
+      const consentUrl = OAuthClient.generateAuthUrl({
+        acess_type: 'offline',
+        scope: ['https://www.googleapis.com/auth/youtube']
+      });
+
+      console.log(`> Please give your consent: ${consentUrl}`);
+    };
   }
 };
 
