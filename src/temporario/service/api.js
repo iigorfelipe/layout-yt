@@ -1,4 +1,6 @@
-// const KEY = 'AIzaSyBAQQpDqCGdrJCEVtCofFzau9UrSaQTUO8';
+// import 'dotenv/config'
+
+// const KEY = process.env.API_KEY;
 // const PlaylistID = 'UC86BAVPgONQZa20s1fjNcgw';
 // // const URL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=${KEY}`;
 // const urlPlaylistId = `https://youtube.googleapis.com/youtube/v3/playlists?part=snippet&channelId=${PlaylistID}&key=${KEY}`;
